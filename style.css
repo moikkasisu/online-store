@@ -1,0 +1,45 @@
+body {padding: 50px}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0;
+  object-fit: contain 
+}
+
+.productpic{
+ width: 40%;
+ align-self: flex-start;
+ flex-direction: row;
+ padding: 50px;
+ display: inline-block
+}
+
+.description{
+  color: darkblue;
+  text-align: justify;
+  width: 40%;
+  display: inline-block
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0 auto;
+    
+}
+
+.button {
+  align-items: flex-end;
+}
+
+.label{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
